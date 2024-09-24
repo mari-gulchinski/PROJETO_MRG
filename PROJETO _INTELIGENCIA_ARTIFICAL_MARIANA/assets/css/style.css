@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+/* ---------------------------------------- */
+/* geral */
+.text_center {
+    text-align: center;
+}
+
+.margin_top_40 {
+    margin-top: 40px;
+}
+
+/* ---------------------------------------- */
+.container_cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #111111;
+    background-image: url(../images/fundo_cabecalho01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.container_cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+/* ---------------------------------------- */
+
+.container_navegacao {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(70, 69, 69));
+
+
+}
+
+.container_navegacao a {
+    font-size: 1.5em;
+    margin: 0 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container_navegacao a:hover {
+    color: rgb(143, 190, 146);
+}
+
+/* ----------------ABOUT US------------ */
+
+.container_about_us {
+    background-color: #3b3b3b;
+    overflow: auto;
+    background-image: url(../images/fundo02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_about_us .servico {
+    float: center;
+    margin: 60px auto;
+    height: 350px;
+    background-color: #252525;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(70, 69, 69));
+}
+
+.container_about_us .servico .icone {
+    width: 150px;
+
+}
+
+.container_about_us .tamanho_icone {
+    width: 1000px;
+    float: center;
+}
+
+.container_about_us .servico_texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.container_about_us .servico_texto_realce {
+    color: rgb(78, 129, 89);
+    font-weight: bold;
+}
+
+/* ---------------OUR TEAM--------------------- */
+
+.container_equipe {
+    background-color: #2f312e;
+    padding: 10px;
+    background-image: url(../images/fundo_preto.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.nomes {
+    color: #000000;
+    column-count: 4;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    column-rule: 4px double #0e0e0e;
+    padding: 10px;
+
+
+}
+
+
+
+.h1 {
+    text-align: center;
+    color: #000000;
+
+}
+
+.membros {
+    width: 450px;
+    column-count: 4;
+    align-items: center;
+    padding: 5px 5px 5px 8px;
+    display: inline;
+
+
+
+}
+
+.container_nossa_equipe {
+    background-color: #3b3b3b;
+    overflow: auto;
+    background-image: url(../images/fundo02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_nossa_equipe .servico {
+    float: center;
+    margin: 60px auto;
+    height: 190px;
+    background-color: #252525;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(70, 69, 69));
+
+}
+
+
+
+.container_nossa_equipe .servico .paragrafo {
+
+    align-items: center;
+
+
+}
+
+
+
+
+/* -------------------SERVICOS CTT------------------ */
+
+.container_servicos_contato {
+    background-color: #303030;
+    padding: 55px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(70, 69, 69));
+
+
+}
+
+.container_servicos_contato .botoes_servicos_contato {
+    padding: 55px;
+    text-align: center;
+}
+
+.botoes_servicos_contato a {
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #528053;
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.botoes_servicos_contato a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* -------------------------------------- */
+
+/* serviços */
+.container_servicos {
+    background-color: #4d4d4d;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+    background-color: #111111;
+    background-image: url(../images/fundopredio.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.container_servicos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container_servicos h3 {
+    color: #a3c091;
+    padding: 20px 0;
+}
+
+.container_servicos article {
+    width: 40%;
+    margin: 100px;
+    float: center;
+
+}
+
+.container_servicos li {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #ffffff;
+
+}
+
+/* ---------------------------- */
+/* Portifolio */
+
+.container_portifolio {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d1d1d;
+    background-image: url(../images/fundo_preto.png);
+
+
+}
+
+.container_portifolio02 {
+    background-image: url(../images/fundo_preto.png);
+}
+
+
+.img {
+    padding: 12px;
+    border-radius: 20px;
+    width: 580px;
+    height: 280px;
+
+}
+
+/* ----------------------------- */
+/* contatos */
+.container_contatos {
+    background-color: #505050;
+    padding: 80px;
+    background-image: url(../images/fundo_cabecalho.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/fundo01.png);
+    background-repeat: no-repeat;
+
+
+}
+
+
+.container_contatos h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.container_contatos h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border: 1px solid #fffdfd;
+    background-color: #242121;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container_contatos .contatos {
+    text-decoration: none;
+    font-size: 2em;
+    color: #ffffff;
+
+
+}
+
+.container_contatos .icones {
+
+    width: 50px;
+    text-align: center;
+}
+
+
+
+
+
+.icone_insta {
+    width: 90px;
+    align-items: center;
+}
+
+
+/* -------------------------------------- */
+footer {
+    text-align: center;
+    padding: 80px;
+    background-color: #000000;
+    color: gray;
+}
